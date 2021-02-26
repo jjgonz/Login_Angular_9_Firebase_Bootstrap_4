@@ -7,7 +7,7 @@ import { FileItem } from '@shared/upload-image/models/file-item';
 
 @Injectable()
 export class StorageService {
-  private MEDIA_STORAGE_PATH = 'dominicode';
+  private MEDIA_STORAGE_PATH = 'Image';
 
   constructor(private readonly storage: AngularFireStorage) {}
 

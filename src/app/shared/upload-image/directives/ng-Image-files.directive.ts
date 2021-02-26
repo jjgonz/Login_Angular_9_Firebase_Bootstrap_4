@@ -10,9 +10,9 @@ import { FileItem } from '@shared/upload-image/models/file-item';
 import { ImageValidator } from '@shared/upload-image/helpers/imageValidator';
 
 @Directive({
-  selector: '[appNgDominicodeFiles]',
+  selector: '[appNgImageFiles]',
 })
-export class NgDominicodeFilesDirective extends ImageValidator {
+export class NgImageFilesDirective extends ImageValidator {
   @Input() files: FileItem[] = [];
   @Output() mouseOver: EventEmitter<boolean> = new EventEmitter();
 
