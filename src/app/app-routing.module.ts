@@ -1,4 +1,4 @@
-import { CanSuscriptorGuard } from './auth/guards/can-suscriptor.guard';
+// import { CanSuscriptorGuard } from './auth/guards/can-suscriptor.guard';
 import { CanAdminGuard } from '@auth/guards/can-admin.guard';
 import { CanSuscriptorGuard } from '@auth/guards/can-suscriptor.guard';
 import { CanEditGuard } from '@auth/guards/can-edit.guard';

@@ -33,7 +33,7 @@ import { CanEditGuard } from '@auth/guards/can-edit.guard';
     CanEditGuard,
     CanAdminGuard,
     CanSuscriptorGuard,
-    { provide: BUCKET, useValue: 'gs://crud-7e0a7.appspot.com' },
+    { provide: BUCKET, useValue: 'gs://login-c7562.appspot.com' },
   ],
   bootstrap: [AppComponent],
 })
